@@ -1,20 +1,26 @@
-<h1>JWipe - Disk Sanitization</h1>
+<h1>Microsoft Azure - Creating Resources</h1>
 
  ### [YouTube Demonstration](https://youtu.be/7eJexJVCqJo)
 
 <h2>Description</h2>
-Project consists of a simple PowerShell script that walks the user through "zeroing out" (wiping) any drives that are connected to the system. The utility allows you to select the target disk and choose the number of passes that are performed. The PowerShell script will configure a diskpart script file based on the user's selections and then launch Diskpart to perform the disk sanitization.
+Project consists of creating resources including resource group, virtual networks, and subnets on the cloud in Microsoft Azure through 2 virtual machines. These utilities allow to create a virtual network, connect the machines on the network, and watch the networks on the Network Watcher. It will configure 2 hard disk drives, 2 network security groups (firewalls), different ip addresses, and 2 network interfaces. 
 <br />
 
 
-<h2>Languages and Utilities Used</h2>
+<h2>Environments and Utilities Used</h2>
 
-- <b>PowerShell</b> 
-- <b>Diskpart</b>
+- <b>Azure Virtual Machines</b> 
+- <b>Network Security Groups</b>
+- <b>Network Interfaces</b>
+- <b>Subnets</b>
+- <b>Remote Desktop Protocol</b>
 
 <h2>Environments Used </h2>
 
+- <b>Microsoft Azure</b> (21H2)
 - <b>Windows 10</b> (21H2)
+- <b>Ubuntu Server</b> 20.04 LTS
+
 
 <h2>Program walk-through:</h2>
 
